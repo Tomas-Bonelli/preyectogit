@@ -1,0 +1,14 @@
+.header {
+    background-color: #CCD5AE;
+    padding: 15px;
+    cursor: default;
+    position:sticky;
+    flex-wrap: wrap;
+
+    .header__titulo {
+        background-color: #d9ae94;
+        border-radius: 5px;
+        align-items: baseline;
+        color: #231942;
+    }
+}

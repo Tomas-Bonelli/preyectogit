@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif,;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+$fondo: rgba(173, 216, 230, 0.479);
+
+
+.bg-cuerpo{
+    background-color: $fondo;
+}
+
+
