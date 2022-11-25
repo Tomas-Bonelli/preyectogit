@@ -126,44 +126,45 @@
 
 }
 
-.map{
+.map {
     padding: 0;
 
-    & iframe{
+    & iframe {
         width: 100%;
         height: 100%;
     }
 }
 
-@media (max-width: 991px){
-    .contacto{
+@media (max-width: 991px) {
+    .contacto {
         padding: 20px;
     }
-    .caja-contenedora{
+
+    .caja-contenedora {
         position: relative;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas:
-        "form"
-        "info"
-        "map";
+            "form"
+            "info"
+            "map";
     }
 
-    .map{
+    .map {
         min-height: 300px;
     }
 
-    .cajaform{
+    .cajaform {
 
-        &.row50{
+        &.row50 {
             display: flex;
             gap: 0;
             flex-direction: column;
         }
     }
 
-    .inputcaja{
+    .inputcaja {
         width: 100%;
     }
 }

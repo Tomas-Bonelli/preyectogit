@@ -4,26 +4,26 @@
     display: block;
     gap: 100px;
 
-.tal__titulo {
+    .tal__titulo {
 
-    margin: 20px;
-    border-top: solid 1px #eee;
+        margin: 20px;
+        border-top: solid 1px #eee;
+    }
+
+    .tal__lista {
+        list-style: none;
+    }
+
+    .tal__contenido {
+        margin: 5px;
+    }
+
+    .tal__img {
+        align-self: center;
+        margin: 15px;
+    }
 }
 
-.tal__lista {
-    list-style: none;
-}
-
-.tal__contenido {
-    margin: 5px;
-}
-
-.tal__img {
-    align-self: center;
-    margin: 15px;
-}
-}
-
-.title-cards{
+.title-cards {
     text-align: center;
 }

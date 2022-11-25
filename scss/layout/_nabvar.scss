@@ -5,13 +5,14 @@
     align-items: flex-end;
 }
 
-    .navbar__item {
-        background-color: #E5989B;
-        border-radius: 5px;
-        margin: 2px;
-        overflow: hidden;
-        :hover{
-            text-decoration: none;
-            color: black;
-        }
+.navbar__item {
+    background-color: #E5989B;
+    border-radius: 5px;
+    margin: 2px;
+    overflow: hidden;
+
+    :hover {
+        text-decoration: none;
+        color: black;
     }
+}
